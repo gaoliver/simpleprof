@@ -1,0 +1,328 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(/img/perfil.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(1);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    color: #fff;
+}
+
+h2 {}
+
+h3 {}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 0 !important;
+    padding: 0;
+    margin-block-start: 10px !important;
+    margin-block-end: 10px !important;
+    font-size: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+
+/* Margens */
+.margin {
+    margin: 10px !important;
+}
+.margin-top {
+    margin-top: 20px;
+}
+.margin-left {
+    margin-left: 50px;
+}
+.margin-right {
+    margin-right: 50px;
+}
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+
+
+/* Menu Principal */
+
+#trigger {
+    position: fixed;
+    z-index: 999;
+    top: 5;
+    left: 5;
+    transition: 0.5s;
+    background-color: black;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.line {
+    width: 40px;
+    height: 7px;
+    margin: 5px 3px 5px 3px;
+    border-radius: 2px;
+    background-color: blanchedalmond;
+}
+
+.line:last-child {
+    margin: 5px 3px 5px 3px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.sidenav a:hover {
+    color: #888;
+}
+
+.sidenav a:active {
+    color: black;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.menu_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+}
+
+.menu_principal ul {
+    width: fit-content;
+}
+
+.menu_principal ul li {
+    margin: 0 0 10px 0;
+    list-style: none;
+}
+
+.menu_principal ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 50px 20px 50px;
+    background-color: #111;
+}
+
+.menu_principal ul li a:active {
+    background-color: #333;
+}
+
+/* Home */
+
+.perfil-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5in;
+    overflow: hidden;
+}
+
+.frase {
+    font-family: fantasy;
+    color: burlywood;
+    filter: drop-shadow(1px 1px 3px black);
+}
+
+.menu {
+    width: 400px;
+    height: fit-content;
+}
+
+.menu li {
+    display: block;
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    margin: 2px 0 2px 0;
+}
+
+.menu li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 400px;
+    padding: 10px 0 10px 0;
+    background-color: #fff;
+}
+
+.menu li a:hover {
+    background-color: black;
+    color: #fff;
+    width: 360px;
+    border-left: solid #fff 20px;
+    border-right: solid #fff 20px;
+    transition: ease-in-out 0.2s;
+}
+
+
+
+.cor_fundo {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    filter: brightness(0.3);
+    position: fixed;
+    z-index: -5;
+    top: 0;
+}
+
+
+
+
+/* Section */
+.title {
+    width: 100% !important;
+    height: fit-content;
+    padding: 15px 0 0 0 !important;
+    margin: 0 !important;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+section {
+    padding: 0 !important;
+    height: 100%;
+}
+.section_img {
+    width: auto;
+    height: 450px;
+    object-fit: cover;
+}
+.section_txtbox {
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+.footer a {
+    color: #000;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 481px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {}
+    h3 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 16px;
+    }
+    section {}
+    ul {}
+    /* Menu Principal */
+    #trigger {}
+    .line {}
+    .line:last-child {}
+    .sidenav {}
+    .sidenav a {}
+    .sidenav a:hover {}
+    .sidenav a:active {}
+    .sidenav .closebtn {}
+    #main {}
+    .menu_principal {}
+    .menu_principal ul {}
+    .menu_principal ul li {}
+    .menu_principal ul li a {}
+    .menu_principal ul li a:active {}
+    /* Home */
+    .perfil-img {
+        width: 150px;
+        height: 150px;
+    }
+    .frase {
+        font-size: 18px;
+        width: 300px;
+    }
+    .menu {
+        width: 300px;
+    }
+    .menu li {}
+    .menu li a {
+        width: 300px;
+    }
+    .menu li a:hover {
+        width: 260;
+    }
+    /* Section */
+    .section_boximg {
+        height: fit-content;
+        max-height: 250px;
+        margin-bottom: 30px;
+    }
+    .section_img {
+        max-width: 350px;
+        height: 250px;
+    }
+    /* Footer */
+    .footer {
+        font-size: 14px;
+    }
+    .footer a {
+    }
+}
+
+/* Fim Mobile */
