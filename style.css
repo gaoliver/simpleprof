@@ -204,7 +204,7 @@ ul {
 .menu li a:hover {
     background-color: black;
     color: #fff;
-    width: 360px;
+    width: 400px;
     border-left: solid #fff 20px;
     border-right: solid #fff 20px;
     transition: ease-in-out 0.2s;
