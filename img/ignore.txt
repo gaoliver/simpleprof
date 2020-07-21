@@ -1,0 +1,1 @@
+Ignore esse arquivo. Ele serve para a pasta /img não ficar vazia.
