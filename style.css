@@ -38,6 +38,10 @@ ul {
     padding: 0;
 }
 
+.container {
+    height: fit-content !important;
+}
+
 
 /* Margens */
 .margin {
@@ -172,8 +176,9 @@ ul {
 }
 
 .menu {
-    width: 400px;
+    width: fit-content;
     height: fit-content;
+    display: grid;
 }
 
 .menu li {
@@ -260,9 +265,9 @@ section {
 
 /* Mobile */
 
-@media only screen and (min-width: 0) and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     h1 {
-        font-size: 20px;
+        font-size: 20px !important;
     }
     h2 {}
     h3 {
@@ -298,27 +303,27 @@ section {
         width: 300px;
     }
     .menu {
-        width: 300px;
+        width: fit-content;
     }
     .menu li {}
     .menu li a {
-        width: 300px;
+        width: 280px;
     }
     .menu li a:hover {
         width: 260;
     }
     /* Section */
     .title {
-        padding: 10px 0 0 0 !important;
+        padding: 10px 0 5px 0 !important;
     }
     .section_boximg {
         height: fit-content;
-        max-height: 250px;
+        max-height: 200px;
         margin-bottom: 30px;
     }
     .section_img {
         max-width: 350px;
-        height: 250px;
+        height: 150px;
     }
     /* Footer */
     .footer {
@@ -366,7 +371,7 @@ section {
         width: 300px;
     }
     .menu {
-        width: 300px;
+        width: fit-content;
     }
     .menu li {}
     .menu li a {
