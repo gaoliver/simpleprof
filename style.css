@@ -263,9 +263,9 @@ section {
     color: #000;
 }
 
-/* Mobile */
+/* Mobile (Smaller) */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) and (max-height: 667px) {
     h1 {
         font-size: 20px !important;
     }
@@ -333,7 +333,10 @@ section {
     }
 }
 
-@media only screen and (min-width: 370px) and (max-width: 481px) {
+
+/* Mobile (Bigger) */
+
+@media only screen and (min-width: 376px) and (max-width: 481px) {
     h1 {
         font-size: 24px;
     }
