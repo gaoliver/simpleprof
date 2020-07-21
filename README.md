@@ -2,7 +2,7 @@
 ## Crie seu perfil simples e elegante
 
 
-<a href="http://gaoliver.simpleprof/">CLIQUE AQUI</a>
+<a href="http://gaoliver.simpleprof/" target="_blank">CLIQUE AQUI</a>
  para ver uma versão de exemplo de como o seu site ficará quando estiver pronto.
 
 ```
@@ -20,8 +20,8 @@ Você nem precisa saber programação, só precisa saber ler e escrever. Está p
 
 - Você pode baixar o arquivo compactado de forma simples. Escolha a versão que deseja baixar e toque no formato de pasta compactada da sua preferência:
 
-    - <a href="https://github.com/gaoliver/simpleprof/archive/v1.0.zip"> Source code (zip)</a>
-    - <a href="https://github.com/gaoliver/simpleprof/archive/v1.0.tar.gz"> Source code (tar.gz)</a>
+    - <a href target="_blank"="https://github.com/gaoliver/simpleprof/archive/v1.0.zip"> Source code (zip)</a>
+    - <a href target="_blank"="https://github.com/gaoliver/simpleprof/archive/v1.0.tar.gz"> Source code (tar.gz)</a>
 
 - Salve a pasta e extraia tudo o que está dentro dela em algum local de sua preferência.
 
