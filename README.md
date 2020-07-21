@@ -2,7 +2,7 @@
 ## Crie seu perfil simples e elegante
 
 
-<a href="http://gaoliver.simpleprof/" target="_blank">CLIQUE AQUI</a>
+<a href="http://simpleprof.pessoal.ws/" target="_blank">CLIQUE AQUI</a>
  para ver uma versão de exemplo de como o seu site ficará quando estiver pronto.
 
 ```

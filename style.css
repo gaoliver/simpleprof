@@ -260,7 +260,75 @@ section {
 
 /* Mobile */
 
-@media only screen and (max-width: 481px) {
+@media only screen and (min-width: 0) and (max-width: 375px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {}
+    h3 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
+    section {}
+    ul {}
+    /* Menu Principal */
+    #trigger {}
+    .line {}
+    .line:last-child {}
+    .sidenav {}
+    .sidenav a {}
+    .sidenav a:hover {}
+    .sidenav a:active {}
+    .sidenav .closebtn {}
+    #main {}
+    .menu_principal {}
+    .menu_principal ul {}
+    .menu_principal ul li {}
+    .menu_principal ul li a {}
+    .menu_principal ul li a:active {}
+    /* Home */
+    .perfil-img {
+        width: 150px;
+        height: 150px;
+    }
+    .frase {
+        font-size: 18px;
+        width: 300px;
+    }
+    .menu {
+        width: 300px;
+    }
+    .menu li {}
+    .menu li a {
+        width: 300px;
+    }
+    .menu li a:hover {
+        width: 260;
+    }
+    /* Section */
+    .title {
+        padding: 10px 0 0 0 !important;
+    }
+    .section_boximg {
+        height: fit-content;
+        max-height: 250px;
+        margin-bottom: 30px;
+    }
+    .section_img {
+        max-width: 350px;
+        height: 250px;
+    }
+    /* Footer */
+    .footer {
+        font-size: 14px;
+    }
+    .footer a {
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 481px) {
     h1 {
         font-size: 24px;
     }
