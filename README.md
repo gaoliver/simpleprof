@@ -18,10 +18,10 @@ Você nem precisa saber programação, só precisa saber ler e escrever. Está p
 
 #### Baixar via Download
 
-- Você pode baixar o arquivo compactado de forma simples. Escolha a versão que deseja baixar e toque no formato de pasta compactada da sua preferência:
+- Você pode baixar o arquivo compactado de forma simples. <a href="https://github.com/gaoliver/simpleprof/releases">CLIQUE AQUI</a> para entrar na página. Escolha a versão que deseja baixar e clique no formato de pasta compactada da sua preferência:
 
-    - <a href target="_blank" href="https://github.com/gaoliver/simpleprof/archive/v1.0.zip"> Source code (zip)</a>
-    - <a href target="_blank" href="https://github.com/gaoliver/simpleprof/archive/v1.0.tar.gz"> Source code (tar.gz)</a>
+    - Source code (zip)
+    - Source code (tar.gz)
 
 - Salve a pasta e extraia tudo o que está dentro dela em algum local de sua preferência.
 
