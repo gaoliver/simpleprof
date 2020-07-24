@@ -3,11 +3,6 @@ html {
 }
 
 body {
-    background-image: url(/img/perfil.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    filter: blur(1);
     margin: 0;
     padding: 0;
 }
@@ -42,25 +37,27 @@ ul {
     height: fit-content !important;
 }
 
-
 /* Margens */
+
 .margin {
     margin: 10px !important;
 }
+
 .margin-top {
     margin-top: 20px;
 }
+
 .margin-left {
     margin-left: 50px;
 }
+
 .margin-right {
     margin-right: 50px;
 }
+
 .margin-bottom {
     margin-bottom: 30px;
 }
-
-
 
 /* Menu Principal */
 
@@ -210,22 +207,26 @@ ul {
     transition: ease-in-out 0.2s;
 }
 
-
-
 .cor_fundo {
     width: 100%;
     height: 100%;
-    opacity: 0.7;
-    filter: brightness(0.3);
+    opacity: 0.4;
     position: fixed;
     z-index: -5;
     top: 0;
 }
 
-
-
+.imagem_fundo {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -6;
+    filter: blur(2px) brightness(0.5);
+}
 
 /* Section */
+
 .title {
     width: 100% !important;
     height: fit-content;
@@ -233,15 +234,18 @@ ul {
     margin: 0 !important;
     background-color: rgba(0, 0, 0, 0.521);
 }
+
 section {
     padding: 0 !important;
     height: 100%;
 }
+
 .section_img {
     width: auto;
     height: 450px;
     object-fit: cover;
 }
+
 .section_txtbox {
     background-color: rgba(0, 0, 0, 0.12);
 }
@@ -329,10 +333,8 @@ section {
     .footer {
         font-size: 14px;
     }
-    .footer a {
-    }
+    .footer a {}
 }
-
 
 /* Mobile (Bigger) */
 
@@ -397,8 +399,7 @@ section {
     .footer {
         font-size: 14px;
     }
-    .footer a {
-    }
+    .footer a {}
 }
 
 /* Fim Mobile */

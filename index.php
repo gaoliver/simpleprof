@@ -38,6 +38,10 @@
 
 
 <body>
+
+<div class="cor_fundo" style="background-color: <?php echo $cor_de_fundo ?>;"></div>
+<img class="imagem_fundo" src="/img/perfil.jpg" />
+
     <center>
         <!-- Menu Principal -->
         <div id="mySidenav" class="sidenav">
@@ -64,9 +68,6 @@
             <div class="line"></div>
             <div class="line"></div>
         </a>
-
-
-        <div class="cor_fundo" style="background-color: <?php echo $cor_de_fundo ?>;"></div>
 
 
         <!-- Página Inicial (HOME) -->
