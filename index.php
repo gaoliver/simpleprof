@@ -95,16 +95,16 @@
             <div class="container">
                 <ul class="menu">
                     <li>
-                        <a href="<?php echo $link_1 ?>" target="_blank"><?php echo $link_1_title ?></a>
+                        <a href="<?php echo $link_1 ?>" style="color: <?php echo $cor_de_fundo ?>" target="_blank"><?php echo $link_1_title ?></a>
                     </li>
                     <li>
-                        <a href="<?php echo $link_2 ?>" target="_blank"><?php echo $link_2_title ?></a>
+                        <a href="<?php echo $link_2 ?>" style="color: <?php echo $cor_de_fundo ?>" target="_blank"><?php echo $link_2_title ?></a>
                     </li>
                     <li>
-                        <a href="<?php echo $link_3 ?>" target="_blank"><?php echo $link_3_title ?></a>
+                        <a href="<?php echo $link_3 ?>" style="color: <?php echo $cor_de_fundo ?>" target="_blank"><?php echo $link_3_title ?></a>
                     </li>
                     <li>
-                        <a href="<?php echo $link_4 ?>" target="_blank"><?php echo $link_4_title ?></a>
+                        <a href="<?php echo $link_4 ?>" style="color: <?php echo $cor_de_fundo ?>" target="_blank"><?php echo $link_4_title ?></a>
                     </li>
                 </ul>
             </div>
