@@ -33,14 +33,96 @@
         }
     </script>
 
+
+    <?php if (($bordas == "sim") and ($cor_de_borda == "white")) : ?>
+        <style>
+            .bordas {
+                border-color: white;
+            }
+
+            .sidenav {
+                background-color: #f3f3f3f3;
+            }
+
+            .sidenav a {
+                color: #000 !important;
+            }
+
+            .menu_principal ul li a {
+                background-color: #FFF;
+            }
+
+            .footer {
+                background-color: #FFF;
+            }
+
+            .footer a {
+                color: #000 !important;
+            }
+
+            .title {
+                background-color: #FFF;
+            }
+
+            .section_txtbox {
+                background-color: rgba(255, 255, 255, 0.6) !important;
+            }
+
+            p {
+                color: #000;
+            }
+
+            .line {
+                background-color: #fff;
+            }
+
+            #home h1 {
+                color: #fff !important;
+            }
+
+            h1 {
+                color: #000 !important;
+            }
+
+            .menu li a {
+                color: #000 !important;
+                background-color: #fff !important;
+            }
+        </style>
+    <?php elseif (($bordas == "sim") and ($cor_de_borda == "black")) : ?>
+        <style>
+            .line {
+                background-color: #000;
+            }
+            #home h1 {
+                color: #000 !important;
+            }
+
+            .menu li a {
+                color: #fff !important;
+                background-color: #000 !important;
+            }
+            .footer {
+                background-color: #000;
+            }
+
+            .footer a {
+                color: #FFF !important;
+            }
+        </style>
+    <?php else : endif; ?>
+
 </head>
 
 
 
 <body>
 
-<div class="cor_fundo" style="background-color: <?php echo $cor_de_fundo ?>;"></div>
-<img class="imagem_fundo" src="/img/perfil.jpg" />
+    <?php if ($bordas == "sim") : ?>
+        <div class="bordas"></div>
+    <?php endif ?>
+    <div class="cor_fundo" style="background-color: <?php echo $cor_de_fundo ?>;"></div>
+    <img class="imagem_fundo" src="/img/perfil.jpg" />
 
     <center>
         <!-- Menu Principal -->
@@ -64,9 +146,9 @@
             </nav>
         </div>
         <a href="#menu" id="trigger" onclick="openNav()">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+            <div id="line1" class="line"></div>
+            <div id="line2" class="line"></div>
+            <div id="line3" class="line"></div>
         </a>
 
 
@@ -179,5 +261,61 @@
         <div class="footer"><?php echo date('Y') . " | " . "Desenvolvido por " . $gabramos; ?></div>
     </center>
 </body>
+
+
+<script>
+    <?php if (($bordas == "sim") and ($cor_de_borda == "black")) : ?>
+    window.onscroll = function() {
+        menuColor()
+    };
+
+    var line1 = document.getElementById("line1");
+    var line2 = document.getElementById("line2");
+    var line3 = document.getElementById("line3");
+    var section = document.getElementById("section1");
+
+    var secFunction = section.offsetTop;
+
+    function menuColor() {
+        if (window.pageYOffset >= secFunction) {
+            line1.style.backgroundColor = "white";
+            line2.style.backgroundColor = "white";
+            line3.style.backgroundColor = "white";
+        }
+        if (window.pageYOffset < secFunction) {
+            line1.style.backgroundColor = "black";
+            line2.style.backgroundColor = "black";
+            line3.style.backgroundColor = "black";
+        }
+    }
+
+    <?php elseif (($bordas == "sim") and ($cor_de_borda == "white")) : ?>
+    window.onscroll = function() {
+        menuColor()
+    };
+
+    var line1 = document.getElementById("line1");
+    var line2 = document.getElementById("line2");
+    var line3 = document.getElementById("line3");
+    var section = document.getElementById("section1");
+
+    var secFunction = section.offsetTop;
+
+    function menuColor() {
+        if (window.pageYOffset >= secFunction) {
+            line1.style.backgroundColor = "black";
+            line2.style.backgroundColor = "black";
+            line3.style.backgroundColor = "black";
+        }
+        if (window.pageYOffset < secFunction) {
+            line1.style.backgroundColor = "white";
+            line2.style.backgroundColor = "white";
+            line3.style.backgroundColor = "white";
+        }
+    }
+
+    <?php endif ?>
+</script>
+
 
 </html>

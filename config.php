@@ -8,11 +8,11 @@ $nome = "
 Seu Nome
 ";
 
-$cor_de_fundo = "
-white
-";
+$cor_de_fundo = "white";
 
+$cor_de_borda = "white";
 
+$bordas = "não";
 
 
 // Página inicial

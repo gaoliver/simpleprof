@@ -56,7 +56,13 @@ Na linha 4, substitua <b>Título do site</b> pelo título que você quer colocar
 Na linha 8, substitua <b>Seu nome</b> pelo nome que você quer colocar.
 
 <b style="color:gold">Cor de fundo:</b>
-Na linha 12, substitua <b>White</b> pela cor que você quer colocar (<b>PRECISA SER EM INGLÊS ou EM FORMATO DE CÓDIGO DE COR CSS, exemplo: #FFFFFF</b>).
+Na linha 11, substitua <b>White</b>, entre áspas, pela cor que você quer colocar (<b>PRECISA SER EM INGLÊS ou EM FORMATO DE CÓDIGO DE COR CSS, exemplo: #FFFFFF</b>).
+
+<b style="color:gold">Cor de borda:</b>
+Na linha 13, substitua <b>White</b>, entre áspas, pela cor que você quer colocar (<b>PRECISA SER EM INGLÊS. APENAS PRETO (BLACK) OU BRANCO (WHITE)</b>).
+
+<b style="color:gold">Bordas:</b>
+Na linha 15, substitua <b>não</b>, entre áspas, sua resposta (<b>SIM ou NÃO</b>).
 
 <b style="color:gold">Frase:</b>
 Na linha 22, substitua <b>Uma frase de sua preferência</b> pela frase que você quer colocar.
